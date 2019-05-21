@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fundamental Test 09</title>
+    <style>
+            table,tr,td{
+                border: 1px solid black;
+                padding: 10px;
+                border-collapse: collapse
+            }
+        </style>
+</head>
+<body>
+    <center>
+        <h1>Drawing Tools</h1>
+        <table>
+            <thead>
+                <tr>
+                    <td>
+                            1. Persegi
+                            <br>
+                            2. segitiga Siku2 Rata Kiri
+                            <br>
+                            3. Segitiga Siku2 Rata Kanan
+                            <br><br>
+                            Jenis Bangunan:
+                            <br><br>
+                            <form id="bangunan"><input type="text"> <br> </form>
+                            <br>
+                            Ukuran:
+                            <br><br>
+                            <form id="ukuran"><input type="text"><br></form>
+                            <br>
+                            <button onclick="segitiga()"> Hasil 1! </button>
+                            <button onclick="kiri()"> Hasil 2! </button>
+                            <button onclick="kanan()"> Hasil 3! </button>
+                            <p id="Hasil"> Hasil </p> 
+                    </td>
+                </tr>
+            </thead>
+        </table>
+    </center>
+<script src="drawing.js">
+</script>
+    
+</body>
+</html>
